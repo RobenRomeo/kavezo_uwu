@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 body{
 
     background-color: bisque;
+}
+
+h1{
+    font-family: 'Bangers', cursive;
+}
+
+nav{
+    background-color: rgb(10, 75, 55);
+}
+
+nav a{
+    color: azure;
+    margin: 15px;
+}
+
+nav a:hover{
+    color: azure;
+    text-decoration: none;
+}
+
+nav a:first-child{
+    font-size: 1.5em;
 }
