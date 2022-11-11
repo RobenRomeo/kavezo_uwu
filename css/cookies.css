@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 body{
-    background-color: ;
+    background-color: bisque;
     
+}
+
+h1{
+    font-family: 'Fredericka the great', cursive;
+}
+
+nav{
+    background-color: rgb(10, 75, 55);
+    padding: 15px;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:first-child{
+    font-size: 1.5em;
 }
