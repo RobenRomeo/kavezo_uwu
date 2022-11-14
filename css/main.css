@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 body{
 
-    background-color: bisque;
+    background-color: #2B422E;
 }
 
 h1{
@@ -9,19 +9,36 @@ h1{
 }
 
 nav{
-    background-color: rgb(10, 75, 55);
+    background-color: rgb(255, 255, 255);
 }
 
 nav a{
-    color: azure;
+    color: #FA9600;
     margin: 15px;
-}
-
-nav a:hover{
-    color: azure;
+    font-style: bold;
+    font-family: 'Bangers', cursive;
+    font-size: 1.5em;
     text-decoration: none;
 }
 
-nav a:first-child{
-    font-size: 1.5em;
+nav a:hover{
+    color: rgb(53, 11, 107);
+    text-decoration: none;
+}
+
+.site-name{
+    font-size: 5em;
+    color: azure;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.pic{
+    position: absolute;
+    width: 1440px;
+    height: 863px;
+    left: 0px;
+    top: 161px;
 }
