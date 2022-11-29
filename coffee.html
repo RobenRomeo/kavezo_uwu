@@ -30,8 +30,9 @@
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
         <div class="col mb-4">
-          <a href="">
+          <a href=""  data-toggle="modal" data-target="#EspressoModal">
             <div class="card">
+              <img src="" alt="ide svg" id="napiajánlat">
               <img src="pics/espresso.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Espresso</h5>
@@ -92,12 +93,12 @@
       </div>
     </div>
     
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#EspressoModal">
+    <button type="button" class="btn btn-primary">
       Launch demo modal
     </button>
     
     <div class="modal fade" id="EspressoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Espresso</h5>
@@ -106,7 +107,18 @@
             </button>
           </div>
           <div class="modal-body">
-            ...
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="pics/espresso.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-sm-8">
+                  <h2>Espresso</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, soluta nobis? Laborum saepe voluptatibus eos, necessitatibus at iusto, porro unde dolore nisi, inventore officia totam ducimus doloribus architecto animi! Dolorum!</p>
+                  <p>Quae, recusandae. Quidem esse alias, molestiae magnam ea aliquam ex neque beatae, facilis eligendi assumenda iusto veritatis ullam modi vel accusantium rem consequatur incidunt a in aperiam quos. Facilis, doloremque.</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-success" data-dismiss="modal">Bezárás</button>
@@ -120,7 +132,7 @@
         <footer class="container">
             <div class="row">
                 <div class="col-sm-6 col-lg-4 offset-lg-1">
-                    <h2 class="mt-3">Kapcsolat</h2>
+                    <h2 class="mt-3">Elérhetőségek</h2>
                     <ul>
                         <li><img src="./img/icons/letter.svg" alt="">Lucky Kávézó</li>
                         <li><img src="./img/icons/email.svg" alt="">lucky@kavezo.hu</li>
@@ -128,11 +140,15 @@
                     </ul>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                    <h2 class="mt-3">Kávé Magazin</h2>
+                    <h2 class="mt-3">Magazin</h2>
                     <p>Iratkozzon fel a kávé magazinunkra!</p>
                     <form>
-                        <input type="text">
-                        <input type="button" value="Feliratkozom">
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Feliratkozom</button>
+                        </div>
+                      </div>
                     </form>
                 </div>
             </div>
