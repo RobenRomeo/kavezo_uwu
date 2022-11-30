@@ -23,12 +23,11 @@ nav a:first-child img{
 }
 
 .banner{
-    background-image: url(..ezszartrademajdkösz/banner.jpg); 
+    background-image: url(../pics/cofeeee.jpg);
     background-position: center center;
     background-size: cover;
     height: 400px;
 }
-
 h1{
     color: #FA9600;
     font-style: bold;
