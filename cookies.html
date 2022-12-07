@@ -23,7 +23,6 @@
                 <a style="color: #FA9600;" class="nav-link active" href="coffee.html">Kávéfajták</a>
                 <a style="color: #FA9600;" class="nav-link" href="cookies.html">Sütemények</a>
                 <a style="color: #FA9600;" class="nav-link" href="blog.html">Blog</a>
-                <a style="color: #FA9600;" class="nav-link" href="seasonal.html">Szezonális</a>
             </div>
         </div>
     </nav>
@@ -51,8 +50,9 @@
           </a>
         </div>
         <div class="col mb-4">
-          <a href="">
+          <a href="" data-toggle="modal" data-target="#TiraModal">
             <div class="card">
+              <img src="sunflower.svg" alt="ide svg" id="napiajánlat">
               <img src="pics/tiramisu_k.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Tiramisu</h5>
@@ -92,29 +92,35 @@
         </div>
       </div>
     </div>
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#SajttortaModal">
-  Launch demo modal
-</button>
-
-  <div class="modal fade" id="SajttortaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Sajt torta</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-success" data-dismiss="modal">Bezárás</button>
+    <div class="modal fade" id="TiraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Tiramisu</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="pics/tiramisu_k.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-sm-8">
+                  <h2>Tiramisu</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, soluta nobis? Laborum saepe voluptatibus eos, necessitatibus at iusto, porro unde dolore nisi, inventore officia totam ducimus doloribus architecto animi! Dolorum!</p>
+                  <p>Quae, recusandae. Quidem esse alias, molestiae magnam ea aliquam ex neque beatae, facilis eligendi assumenda iusto veritatis ullam modi vel accusantium rem consequatur incidunt a in aperiam quos. Facilis, doloremque.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Bezárás</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
   <div class="footer">
     <footer class="container">
