@@ -23,7 +23,7 @@ nav a:first-child img{
 }
 
 .banner{
-    background-image: url(./pics/cof.jpg);
+    background-image: url("https://i.imgur.com/hREgzD9.jpeg"); 
     background-position: center center;
     background-size: cover;
     height: 400px;
